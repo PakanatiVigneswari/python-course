@@ -1,0 +1,53 @@
+Opertions of string:
+	1)Concatination==> Combining two or more strings (+)
+	2)repitation==>repeating the strings multiple times (*)
+	3)indexing==>used to get accessing of specific characters in a string
+		     we have positive and negative indexing
+		     In indexing spaces also considered
+		     we must need to give not more than actual characters	
+	4)Slicing==>used to get access using start, stop, step i.e., [start:stop:step]
+	5)Membership==>used in and not in
+
+Methods of string:
+	1)len(s)==> For length of string
+	2)s.upper()==>for changing all chatracters in capitial case
+	3)s.lower()==>for changing all characters in lower case
+	4)s.swapcase()==>for changing lower case to upper or upper case to lower
+	5)s.title()==>For changing each word starting character to upper
+	6)s.capitaliaze()==>For changing only first letter of a string to upper
+
+
+
+s.center(40,'-')==>o/p: '----------------------python-------------------'
+s.center(40,'')==>o/p: '                       python                    '
+s.center(40,'*')==>o/p: '**********************python********************'
+s.ljust(40,'*')==>o/p: 'python*******************************************'
+s.rjust(40,'*')==>o/p: '*******************************************python'
+'1'.zfill(5)==>'00001'
+'123'.zfill(5)==>'00123'
+'123456789'.zfill(5)==>'123456789'
+s.find==>used to find weather the characters is in the string or not
+	if yes then it prints it's index
+	if not present then it prints -1
+s.rfind==>Used to find weather the characters is in the string or not
+	if yes then it prints it's index from right side
+	if not present then it prints -1
+s.index==>used to find weather the characters is in the string or not
+	if yes then it prints it's index
+	if not present then it prints error
+s.rindex==>used to find weather the characters is in the string or not 
+	if yes then it prints it's index from right side
+	if not present then it prints error
+s.count()==>Used to count how many times a particular character repeats
+s.strip()==>Used to remove left and right spaces but not in-between spaces
+s.lstrip()==>Used to remove left side spaces
+s.rstrip()==>Used to remove right side spaces
+s.replace('x','y')==>Used to replace the specific character with another specific character
+s.translate(s.maketrans('aeiou','*'))==>Used to translate more characters for example 'aeiou' with * like that
+
+NOTE:
+By using replace we can only replace only one character with another character but by using s.translate(s.maketrans('aeiou','*')) we can replace more characters with another characters.
+
+find and index are same but if the element is not found then find prints -1 but index gives error.
+
+

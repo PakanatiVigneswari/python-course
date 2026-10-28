@@ -1,0 +1,63 @@
+Type Conversions:
+=================
+
+int -> float, complex, str, bool
+float -> int, complex, str, bool
+str(names) -> str, bool, list, set, tuple
+str(numbers) -> int, float, str, bool, complex, list, set, tuple
+complex -> int, float, str, bool
+bool -> int, float, str, complex
+list -> st, tuple, set, bool
+set -> list, tuple, str, bool
+tuple -> str, list, set, bool
+dict -> str(display only keys), list(display only keys), tuple(display only keys), bool
+
+
+
+
+
+Operations:
+===========
+1)Arithematic operator:
+ 	Addition:  +
+	Subtraction: -
+	Multiplication: *
+	Division: /
+	Floor Division: //
+	Modulus: % - It will display remainder
+	Exponential or power - **
+
+2)Comparision Operator:
+	greater than: >
+	less than: <
+	greater than or equal to: >=
+	less than or equal to: <=
+	double equal to: ==
+	not equal to: !=
+
+3)Assignment operator:
+	add assign: +=
+	sub assign: -=
+	mul assign: *=
+	div assign: /=
+
+4)Logical operator:
+	and - two statements should be true
+	or - any of the statement should to true
+	not - if true then false, if false then true
+
+5)Membership Operator:
+	used for collection elements
+	used with list, tuple, dict, set
+	in - present inside
+	not in - not present inside
+	In dict membership operator work with/consider keys
+
+6)Identity Operator:
+	using id function we check for memory reference
+	'is' check memory location
+	if we give 'is' then it check id
+	if we give '==' then it check values
+
+
+
