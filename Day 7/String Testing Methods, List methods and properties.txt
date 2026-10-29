@@ -1,0 +1,21 @@
+String Testing Methods:
+
+	s.startswith('p')==>Check weather is s given string start with the particular 					character
+	s.endswith('p')==>Check weather is s given string ends with the particular 					character
+	'g'.islower()==>Ch+eck is g lower or not
+	'G'.isupper()==>Checks is G is upper or not
+
+
+properties of List:
+	List is muatable, Ordered, Hetrogenious, hetrogenious, Dynamically typed
+
+Operations of List:
+	Concatenation, Repitation, Indexing, Slicing, Membership
+
+Methods in List:
+	len,sorted,max,min
+
+Adding elements into List:
+	append==> for adding single elements at the last
+	extend==>for adding multiple elements at the last of the list
+	insert==>for adding elements at a particular position like l.insert(1,"r")
