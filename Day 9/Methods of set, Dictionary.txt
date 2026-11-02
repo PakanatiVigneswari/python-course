@@ -1,0 +1,75 @@
+Methods of set:
+	len(s)==>for getting the length of the set
+	eg:len(s)
+	max(s)==>for getting the maximum element in the set
+	eg:max(s)
+	min(s)==>for getting the minimum element in the set
+	eg:min(s)
+	sum(s)==>Used to add all the elements in the set
+	eg:sum(s)
+	any(s)==>If any one is true all is true
+	eg:any(s)
+	all(s)==>If all are true then only true
+	eg:all(s)
+	add(): Adding one element to the set.
+	eg: s.add(10)
+	update(): Adding multiple elements to the set.
+	eg: s.update({10,20,30})
+	pop(): Delete some random element.
+	eg: s.pop()
+	remove(): Deleting the specific element.
+	eg: s.remove(40)
+	discard(): Deleting the specific element in set by taking that particular number.
+	eg: s.discard(50)
+
+remove() and discard() are same but the only difference is by using remove() if the element is not there is the set it gives error , but in discard() it doesn't gives error in such case. 
+
+	clear(): clear the entire set.
+	ex: s.clear()
+	copy(): copy elements from set, after adding elements to set it can't add elements to the copied set.
+
+Dictionary: 
+
+	Dict is mutuable, dynamically typed, ordered, hyterogenous, unique keys.
+	keys must be immutuable.
+
+accessing the elements in dict ==> d[value] -> d[2]
+				   d[key]=value
+accessing the elements are present or not-present in dict ==> s.get()
+			eg: s.get(2,'key is not present')
+			in this case if 2 is not present then is prints that 'key is not present'.
+
+
+MemberShip operation is only work with values.
+
+update the values in dict: d[3] = 23
+
+add the values in dict: d[13] = 100
+
+adding the multiple values in dict:  d.update()
+					ex: d.update({15:500, 16:600})
+pop(): delete the element.
+del: delete the particular position ex: del d[5]
+clear(): delete the entire dict.
+
+Methods:
+keys(): accessing the all keys.
+values(): accessing the all values.
+items(): accessing the all items.
+len(): len of dict.
+sorted(): elements are sorted in dict.
+max(): max element in dict.
+min(): min element in dict.
+
+dict.fromkeys(["a", "b", "c", "d", "e", 0]   -> for all keys assigning one value
+setdefault() -> assign the values in the dict.
+EX: d.setdefault('k', 1)
+    #1
+    d
+    #{'a': 0, 'b': 0, 'c': 0, 'd': 0, 'e': 0, 'h': None, 'k': 1}
+
+
+frozenset:
+	
+	frozenset is another datatype. Set and frozenset are same but the only difference is set is mutable but frozen set is immutable that means it can't do the operations like adding and updating and deleting the elements.
+
